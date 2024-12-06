@@ -1,0 +1,61 @@
+.hero-container{
+    background: url(../images/living-room-photo.jpg) center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    margin-top: -80px;
+}
+@media screen and (max-width: 1024px){
+    .hero-container {
+        justify-content: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+       
+    }
+}
+
+
+.hero-container > h1{
+    color: #000;
+    font-weight: 300;
+    font-size: 60px;
+    margin-top: 220px;
+    margin-inline: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .hero-container > h1{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-container > h1{
+        font-size: 40px;
+        margin-top: 80px;
+    }
+}
+
+.hero-container > p{
+    color: #000;
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 1024px){
+    .hero-container > p{
+        color: #fff;
+    }
+}
+
+.hero-btns{
+    margin-top: 32px;
+}
